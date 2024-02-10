@@ -1,14 +1,21 @@
-class ZCL_TEST_PRB_OUT definition
-  public
-  final
-  create public .
+CLASS zcl_test_prb_out DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
 
-public section.
-protected section.
-private section.
+  PUBLIC SECTION.
+
+    INTERFACES if_oo_adt_classrun .
+  PROTECTED SECTION.
+  PRIVATE SECTION.
 ENDCLASS.
 
 
 
-CLASS ZCL_TEST_PRB_OUT IMPLEMENTATION.
+CLASS zcl_test_prb_out IMPLEMENTATION.
+
+
+  METHOD if_oo_adt_classrun~main.
+*   Hola
+  ENDMETHOD.
 ENDCLASS.
