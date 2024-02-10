@@ -16,6 +16,6 @@ CLASS zcl_test_prb_out IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
-*   Hola
+*   Hola Pablo
   ENDMETHOD.
 ENDCLASS.
